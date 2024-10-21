@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif; /* Fonte da página */
+    margin: 0; /* Remove margens padrão */
+    padding: 20px; /* Espaçamento interno */
+    background-color: #f0f0f0; /* Cor de fundo da página */
+}
+
+header {
+    text-align: center; /* Centraliza o cabeçalho */
+    margin-bottom: 20px; /* Margem abaixo do cabeçalho */
+}
+
+h1 {
+    color: #2c3e50; /* Cor do título */
+    font-size: 2.5em; /* Tamanho do título */
+}
+
+p {
+    text-align: center; /* Centraliza o parágrafo */
+    font-size: 1.2em; /* Tamanho da fonte do parágrafo */
+    color: #34495e; /* Cor do parágrafo */
+}
+
+.background-area {
+    background-color: rgba(0, 128, 128, 0.7); /* Cor de fundo semi-transparente */
+    background-image: url('https://images7.alphacoders.com/599/599379.jpg'); /* Imagem de fundo */
+    background-position: center; /* Posiciona a imagem no centro */
+    background-repeat: no-repeat; /* Não repete a imagem */
+    background-size: cover; /* Faz a imagem cobrir toda a área */
+    background-attachment: fixed; /* A imagem fica fixa enquanto rola a página */
+    color: white; /* Cor do texto na área */
+    padding: 40px; /* Espaçamento interno na div */
+    margin-top: 20px; /* Margem acima da div */
+    text-align: center; /* Centraliza o texto na div */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Sombra da div */
+}
+
+.background-area h2 {
+    font-size: 2em; /* Tamanho do subtítulo */
+}
+
+.background-area p {
+    font-size: 1.1em; /* Tamanho do texto dentro da div */
+}
+
+button {
+    background-color: #2980b9; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    border: none; /* Sem borda */
+    border-radius: 5px; /* Bordas arredondadas do botão */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    font-size: 1em; /* Tamanho da fonte do botão */
+    cursor: pointer; /* Cursor do mouse em forma de pointer */
+    transition: background-color 0.3s; /* Transição suave */
+}
+
+button:hover {
+    background-color: #3498db; /* Cor do botão ao passar o mouse */
+}
+
+footer {
+    text-align: center; /* Centraliza o rodapé */
+    margin-top: 20px; /* Margem acima do rodapé */
+    color: #34495e; /* Cor do texto do rodapé */
+}
